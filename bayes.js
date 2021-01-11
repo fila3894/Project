@@ -5,6 +5,7 @@ var Mecab = require('./mecab-mod.js');
 var mecab = new Mecab();
 var fs = require('fs');
 
+
 // 샘플 텍스트
 var file = 'temp_text.txt';
 fs.readFile(file, function(err, data){
