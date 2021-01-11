@@ -25,6 +25,7 @@ categorize('추천');
 categorize('좋은');
 categorize('맛있');
 
+
 // 카테고리 분류 결과를 출력 ---- (※4)
 function categorize(text) {
   var r = classifier.categorize(text);
