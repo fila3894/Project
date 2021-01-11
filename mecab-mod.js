@@ -34,7 +34,6 @@ module.exports = function () {
       var res = lines.map(function(line) {
           return line.replace('\t', ',').split(',');
       });
-  
       return res;
     };
   };
